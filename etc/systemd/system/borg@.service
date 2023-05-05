@@ -1,0 +1,8 @@
+[Unit]
+Description=borg (%I) backup
+
+[Service]
+Type=oneshot
+Nice=19
+IOSchedulingClass=idle
+ExecStart=/opt/scripts/borg/borg_backup.sh

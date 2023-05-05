@@ -1,0 +1,8 @@
+[Unit]
+Description=Run the backups script which starts systemd services
+
+[Service]
+
+Type=oneshot
+
+ExecStart=/opt/scripts/run_backups.sh

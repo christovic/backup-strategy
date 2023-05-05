@@ -1,0 +1,10 @@
+[Unit]
+Description=Run all the backups at 4am
+
+[Timer]
+OnCalendar=*-*-* 4:00:00
+Persistent=true
+Unit=backups.service
+
+[Install]
+WantedBy=timers.target
