@@ -5,4 +5,4 @@ Description=borg (%I) backup
 Type=oneshot
 Nice=19
 IOSchedulingClass=idle
-ExecStart=/opt/scripts/borg/borg_backup.sh
+ExecStart=/opt/scripts/borg_backup.sh
